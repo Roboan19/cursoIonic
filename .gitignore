@@ -1,28 +1,46 @@
-# Angular specific
-/dist/
-/out-tsc/
-/tmp/
-/coverage/
-/e2e/test-output/
-/.angular/
-.angular/
+# Editor folders
+.vscode/
+.idea/
 
-# Node modules and dependency files
-/node_modules/
-/package-lock.json
-/yarn.lock
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
 
-# Environment files
-/.env
+# Build outputs
+www/
+platforms/
+dist/
+build/
+!www/.gitkeep
 
-# Angular CLI and build artefacts
-/.angular-cli.json
-/.ng/
+# Ionic Capacitor
+android/
+ios/
+capacitor.config.json.backup
 
-# TypeScript cache
-*.tsbuildinfo
+# Environment
+src/environments/*.ts
+!src/environments/environment.example.ts
 
 # Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Angular cache
+.angular/
+.angular/cache/
+
+# Compiled output
+*.js.map
+
+# Temp
+tmp/
+temp/
