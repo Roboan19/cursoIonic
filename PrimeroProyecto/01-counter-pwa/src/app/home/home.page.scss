@@ -1,0 +1,14 @@
+.center-conten{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-front{
+    font-size: 35vw;
+}
+
+:host-context(.ptl-andorid), ion-header.ios {
+    margin-top: 25px;
+}
